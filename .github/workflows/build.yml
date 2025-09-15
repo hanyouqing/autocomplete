@@ -63,7 +63,7 @@ jobs:
         with:
           skip-tag: "true"
       - name: Publish to npm
-        uses: JS-DevTools/npm-publish@v3
+        uses: JS-DevTools/npm-publish@v4
         with:
           access: public
           token: ${{ secrets.NPM_PUBLISH_TOKEN }}
